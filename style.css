@@ -1,0 +1,232 @@
+/*
+Theme Name: kraye
+Theme URI: alvinzach.github.io
+Author: alvinzach
+Author URI: alvinzach.github.io
+Description: Two colums fixed sidebar Template
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Fullwidth,grid,photography,dark,free
+Text Domain: kraye
+*/
+@import 'https://fonts.googleapis.com/css?family=Titillium+Web:300,400';
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
+
+html,body{
+	margin:0px;
+	padding-top:0px !important;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+.site-title a{
+    font-family: 'Lobster', cursive;
+}
+/*
+Site header (left navigation bar)
+=================================
+*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+		font-family: 'Titillium Web', sans-serif;
+		font-size:16px;
+		font-weight:400;
+		text-transform:uppercase;
+ }
+ .navbar-default .navbar-nav > li > a{
+	 font-family: 'Titillium Web', sans-serif;
+	 font-size:16px;
+	 font-weight:400;
+	 text-transform:uppercase;
+}
+@media (min-width: 768px) {
+ .side{
+	 height:100%;
+	 background:#000;
+	 position:fixed;
+ }
+
+ .sidebar-nav {
+	 height:100%;
+ }
+ .sidebar-nav .navbar-header {
+	 margin-top:20px;
+	 margin-bottom:20px;
+}
+ .sidebar-nav  {
+	 height:100%;
+ }
+ .sidebar-nav .navbar .navbar-collapse {
+	 padding: 0;
+	 max-height: none;
+ }
+ .sidebar-nav .navbar ul {
+	 float: none;
+	 display: block;
+ }
+ .sidebar-nav .navbar li {
+	 float: none;
+	 display: block;
+ }
+ .sidebar-nav .navbar li a {
+	 padding-top: 12px;
+	 padding-bottom: 12px;
+ }
+ .nav{
+	 margin-top:50px;
+ }
+ .social{
+	 position:absolute;
+	 bottom:40px;
+	 text-align:center;
+	 width:100%;
+ }
+ .social i{
+	 padding:5px;
+	 font-size:25px;
+ }
+}
+/*
+Home page styles (Post Grid)
+=================================
+*/
+.holder{
+ margin-top:20%;
+ float:right;
+ text-align:right;
+}
+.postmetabar{
+ float:right;
+ padding:10px;
+ margin-right:0px;
+ margin-bottom:2px;
+ font-size:16px;
+}
+.postmetabar a{
+	color:#000;
+}
+.big1{
+ font-family: 'Titillium Web', sans-serif;
+ font-weight:100;
+ padding:15px;
+ font-size:60px;
+ float:right;
+ margin-right:0px;
+ margin-top:5px;
+ clear:both;
+
+}
+.big1{
+ font-family: 'Titillium Web', sans-serif;
+ font-weight:100;
+ padding:15px;
+ font-size:60px;
+ float:right;
+ margin-right:0px;
+ margin-top:5px;
+ clear:both;
+
+}
+
+.big2{
+ font-family: 'Titillium Web', sans-serif;
+ font-weight:100;
+ padding:15px;
+ font-size:30px;
+ float:right;
+ margin-right:0px;
+ margin-top:5px;
+ clear:both;
+
+}
+.nav-previous{
+	max-width: 150px;
+  float: left;
+  margin: 10px;
+	clear:left;
+}
+.nav-next{
+	max-width: 150px;
+  float: right;
+  margin: 10px;
+	clear:right;
+}
+.nav-previous a,.nav-next a{
+	color:#fff;
+}
+.content{
+ height:100%;
+}
+.overlay{
+margin:0px;
+padding:0px;
+height:100%;
+}
+/*
+Singlepost styles
+=================================
+*/
+.singlebig{
+ font-family: 'Titillium Web', sans-serif;
+ font-weight:100;
+ padding:15px;
+ font-size:60px;
+ float:center;
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:5px;
+ clear:both;
+}
+/*
+Comments
+=================================
+*/
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    float: right;
+    clear: both;
+    width: 80%;
+}
+input, select, textarea {
+  color:#000;
+}
+input[type="submit"]{
+  color:#fff;
+  margin-bottom:50px;
+}
+.form-allowed-tags{
+    clear: both;
+    margin-top: 50px;
+    float: right;
+    width: 80%;
+}
+.submit {
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.comment-list{
+  clear:both;
+}
+.avatar{
+  border-radius: 30px;
+}
+.search-field {
+    margin-left: 150px;
+    margin-top: -23px;
+}
+/*
+Styles for mobile devices
+=================================
+*/
+@media (max-width: 768px) {
+.navbar-brand img{
+ max-height:100%;
+}
+.postmetabar,.social{
+ display:none;
+}
+}

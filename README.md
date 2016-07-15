@@ -1,1 +1,0 @@
-# Kraye-wordpress-Theme

@@ -1,0 +1,116 @@
+ @import 'https://fonts.googleapis.com/css?family=Titillium+Web:300,400';
+ .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+     font-family: 'Titillium Web', sans-serif;
+     font-size:16px;
+     font-weight:400;
+     text-transform:uppercase;
+  }
+  .navbar-default .navbar-nav > li > a{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    text-transform:uppercase;
+}
+
+html,body,.container-fluid,.row{
+  height:100%;
+}
+.holder{
+  margin-top:20%;
+  float:right;
+  text-align:right;
+}
+.postmetabar{
+  float:right;
+  padding:10px;
+  margin-right:0px;
+  margin-bottom:2px;
+  font-size:16px;
+}
+.big1{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:100;
+  padding:15px;
+  font-size:60px;
+  float:right;
+  margin-right:0px;
+  margin-top:5px;
+  clear:both;
+
+}
+.big2{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:100;
+  padding:15px;
+  font-size:30px;
+  float:right;
+  margin-right:0px;
+  margin-top:5px;
+  clear:both;
+
+}
+.content{
+  height:100%;
+  overflow-y:auto;
+}
+.overlay{
+background:url('../img/overlay.png');
+margin:0px;
+padding:0px;
+}
+@media (max-width: 768px) {
+.navbar-brand img{
+  max-height:100%;
+}
+.postmetabar,.social{
+  display:none;
+}
+}
+
+@media (min-width: 768px) {
+  .side{
+    height:100%;
+    background:#000;
+    position:fixed;
+  }
+
+  .sidebar-nav {
+    height:100%;
+  }
+  .sidebar-nav .navbar-header {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+  .sidebar-nav  {
+    height:100%;
+  }
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .nav{
+    margin-top:50px;
+  }
+  .social{
+    position:absolute;
+    bottom:40px;
+    text-align:center;
+    width:100%;
+  }
+  .social i{
+    padding:5px;
+    font-size:25px;
+  }
+}
