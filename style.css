@@ -1,8 +1,8 @@
 /*
 Theme Name: kraye
-Theme URI: alvinzach.github.io
+Theme URI: http://m3r.in/alvin/
 Author: alvinzach
-Author URI: alvinzach.github.io
+Author URI: http://alvinzach.github.io/
 Description: Two colums fixed sidebar Template
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -23,6 +23,16 @@ html,body{
 .site-title a{
     font-family: 'Lobster', cursive;
 }
+img{
+max-width:80%;
+}
+.content{
+overflow-x:hidden;
+}
+td, th {
+    padding: 10px;
+    border: 1px solid;
+}
 /*
 Site header (left navigation bar)
 =================================
@@ -38,6 +48,10 @@ Site header (left navigation bar)
 	 font-size:16px;
 	 font-weight:400;
 	 text-transform:uppercase;
+}
+.site-description {
+    float: right;
+    padding: 5px;
 }
 @media (min-width: 768px) {
  .side{

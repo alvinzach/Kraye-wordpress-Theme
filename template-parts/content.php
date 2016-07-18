@@ -7,7 +7,7 @@
  * @package kraye
  */
 ?>
-	<div class="col-sm-4" style="background:url('<?php echo(wp_get_attachment_url( get_post_thumbnail_id($post->ID) ));?>');background-size:cover;background-attachment:fixed;height:320px;">
+	<div class="col-sm-4" style="background:url('<?php echo(wp_get_attachment_url( get_post_thumbnail_id($post->ID) ));?>') center center;background-size:cover;background-attachment:fixed;height:320px;">
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<a href="<?php echo esc_url( get_permalink() ); ?>">
 			<div class="overlay" style="height:100%;">
